@@ -1,0 +1,108 @@
+:root {
+font-size: 16px;
+}
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+	background-color: #e4eaed;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+
+/*=======header===*/
+header{
+	background-color: #bccbd3;
+	background-image: url("../images/ÉAL22-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 80px;
+	height: 768px;
+}
+
+#header-mariage {
+	background-image: url("../images/wedding-time2.jpg");
+	background-position: right;
+}
+
+#header-contact {
+	background-image: url("../images/josiane.jpg");
+/*	background-position: right;*/
+}
+
+
+section {
+	padding-top: 80px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h1{
+	font-family: 'Great Vibes', cursive;
+	font-size: 7rem;
+	padding-top: 100px;
+	color: white;
+}
+
+header h2{
+	font-size: 2rem;
+	line-height: 1;
+	color: white;
+}
+
+/*======NAVIGATION BAR(bootstrap)*/
+nav {
+	text-align: center;
+}
+
+/* Navbar container */
+.cp-mainNavbar {
+  background-color: rgba(0,0,0,0.8)!important;
+}
+
+/* Links inside the navbar */
+.cp-mainNavbar a {
+  font-size: 14px;
+  /*color: white;*/
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+
+/*======*/
+
+
+
+
+.cp-active{
+	/*background-color: #bccbd3;*/
+	text-transform: uppercase;
+	color: rgb(0,0,0);
+	font-weight: bold;
+}
+
+.navbar.scrolled {
+    background: white;
+    transition: background 500ms;
+
+}
+#mainNavbar.scrolled {
+    background-color: rgba(0,0,0,0.4)!important;
+  	transition: background-color 200ms linear;
+}
+
+@media screen and (min-width: 700px){
+
+}
+
+
